@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Rampogu Samson, Full Stack Developer and B.Tech student in Hyderabad.">
+    <meta name="color-scheme" content="dark light">
+    <title>Rampogu Samson | Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Theme switch: CSS only. Checked = light mode. -->
+<input type="checkbox" id="theme" class="sr-only">
+
+<div class="page">
+
+    <a class="skip-link" href="#home">Skip to content</a>
+
+    <!-- Navigation -->
+    <header class="nav">
+        <div class="nav-inner">
+            <a class="brand" href="#home" aria-label="Rampogu Samson, back to top">
+                <span class="brand-mark">RS</span>
+                <span class="brand-name">Rampogu Samson</span>
+            </a>
+
+            <input type="checkbox" id="menu" class="sr-only">
+            <label for="menu" class="burger" aria-label="Open or close navigation menu">
+                <span></span><span></span><span></span>
+            </label>
+
+            <nav class="nav-links" aria-label="Primary">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <label for="theme" class="theme-toggle" title="Switch between dark and light theme">
+                <span class="sr-only">Toggle light or dark theme</span>
+                <span class="theme-track" aria-hidden="true"><span class="theme-knob"></span></span>
+            </label>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Hero -->
+        <section id="home" class="hero" aria-labelledby="hero-title">
+            <div class="hero-bg" aria-hidden="true"></div>
+            <span class="particle p1" aria-hidden="true"></span>
+            <span class="particle p2" aria-hidden="true"></span>
+            <span class="particle p3" aria-hidden="true"></span>
+            <span class="particle p4" aria-hidden="true"></span>
+            <span class="particle p5" aria-hidden="true"></span>
+            <span class="particle p6" aria-hidden="true"></span>
+
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="hero-kicker r1">Full Stack Developer</p>
+                    <h1 id="hero-title" class="r2">Rampogu Samson</h1>
+                    <p class="hero-lead r3">
+                        B.Tech student in Hyderabad building full-stack web and mobile projects with
+                        React, Node.js and Python, from rural-services platforms to AI-powered
+                        recommendation systems.
+                    </p>
+                    <div class="cta-row r4">
+                        <a class="btn btn-primary" href="#projects">View My Projects</a>
+                        <a class="btn btn-secondary" href="resume.pdf" download>Download Resume</a>
+                        <a class="btn btn-ghost" href="#contact">Contact Me</a>
+                    </div>
+                </div>
+
+                <div class="hero-visual r3">
+                    <div class="glow" aria-hidden="true"></div>
+                    <div class="avatar-float">
+                        <div class="ring" aria-hidden="true"></div>
+                        <div class="avatar">
+                            <img src="background.png" width="867" height="998"
+                                 alt="Portrait of Rampogu Samson, smiling, wearing a blue plaid shirt">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="section" aria-labelledby="about-title">
+            <div class="container">
+                <h2 id="about-title" class="section-title">About me</h2>
+                <span class="accent-line" aria-hidden="true"></span>
+
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>
+                            I'm a Bachelor of Technology student building a foundation in software
+                            development, data structures and algorithms, database management,
+                            machine learning and data analysis through coursework and hands-on projects.
+                        </p>
+                        <p>
+                            My projects span the full stack. I built a rural digital platform with
+                            React.js, React Native, Node.js, Express.js and MongoDB, covering RESTful
+                            APIs, database schemas, user authentication and role-based access control.
+                            I also built an AI-powered recommendation system with Python, FastAPI,
+                            React.js and LangChain that suggests project ideas based on a user's skills,
+                            interests and goals.
+                        </p>
+                    </div>
+
+                    <aside class="about-card" aria-label="Education">
+                        <h3>Education</h3>
+                        <p class="about-card-main">Bachelor of Technology (BTech)</p>
+                        <p>Electronics Communication and Engineering (ECE)</p>
+                        <p class="muted">Sri Indu College of Engineering and Technology (SICET), Sheriguda, Hyderabad</p>
+                        <p class="muted">2024 &ndash; 2028 &middot; Currently 3rd Year, 1st Semester</p>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="section" aria-labelledby="skills-title">
+            <div class="container">
+                <h2 id="skills-title" class="section-title">Technical skills</h2>
+                <span class="accent-line" aria-hidden="true"></span>
+
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <h3>Languages</h3>
+                        <ul class="chips">
+                            <li>JavaScript (Basics)</li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>Frontend</h3>
+                        <ul class="chips">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>Web and mobile, used in projects</h3>
+                        <ul class="chips">
+                            <li>React.js</li>
+                            <li>React Native</li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>Backend and APIs, used in projects</h3>
+                        <ul class="chips">
+                            <li>Node.js</li>
+                            <li>Express.js</li>
+                            <li>FastAPI</li>
+                            <li>RESTful API</li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>Data and AI, used in projects</h3>
+                        <ul class="chips">
+                            <li>MongoDB</li>
+                            <li>Python</li>
+                            <li>LangChain</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="section" aria-labelledby="projects-title">
+            <div class="container">
+                <h2 id="projects-title" class="section-title">Projects</h2>
+                <span class="accent-line" aria-hidden="true"></span>
+
+                <div class="projects-grid">
+
+                    <article class="project-card">
+                        <header class="project-head">
+                            <h3>Portfolio</h3>
+                            <p class="project-date">Sep 2025 &ndash; Jun 2026</p>
+                        </header>
+                        <p class="project-summary">
+                            A full-stack rural digital platform that improves access to and delivery of
+                            essential services in rural communities.
+                        </p>
+                        <ul class="project-points">
+                            <li>Built modules for grievance management, local news and updates, farmer support services, a rural marketplace and transportation services.</li>
+                            <li>Designed and developed RESTful APIs, database schemas, user authentication and role-based access control.</li>
+                            <li>Implemented bus schedules, ride pooling and vehicle hiring, plus a marketplace connecting local vendors and customers.</li>
+                        </ul>
+                        <ul class="tags" aria-label="Technologies used">
+                            <li>React.js</li>
+                            <li>React Native</li>
+                            <li>Node.js</li>
+                            <li>Express.js</li>
+                            <li>MongoDB</li>
+                            <li>JavaScript</li>
+                            <li>RESTful API</li>
+                        </ul>
+                    </article>
+
+                    <article class="project-card">
+                        <header class="project-head">
+                            <h3>Affordable &amp; Available</h3>
+                            <p class="project-date">Jul 2026</p>
+                        </header>
+                        <p class="project-summary">
+                            An AI-powered recommendation system that generates personalized, innovative
+                            project ideas from a user's skills, interests, academic background and career goals.
+                        </p>
+                        <ul class="project-points">
+                            <li>Integrated multi-source research across research papers, GitHub repositories, technical blogs and recent technology trends.</li>
+                            <li>Implemented gap analysis to find limitations and unexplored areas in existing solutions and generate problem-oriented recommendations.</li>
+                            <li>Designed a ranking mechanism that prioritizes projects by relevance, feasibility, innovation and fit with the user's profile.</li>
+                        </ul>
+                        <ul class="tags" aria-label="Technologies used">
+                            <li>Python</li>
+                            <li>FastAPI</li>
+                            <li>React.js</li>
+                            <li>LangChain</li>
+                            <li>RESTful API</li>
+                        </ul>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications -->
+        <section id="certifications" class="section" aria-labelledby="cert-title">
+            <div class="container">
+                <h2 id="cert-title" class="section-title">Certifications</h2>
+                <span class="accent-line" aria-hidden="true"></span>
+
+                <div class="cert-empty">
+                    <p>No certifications are listed on my resume yet. Verified credentials will appear here with the issuer, date and credential link.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section" aria-labelledby="contact-title">
+            <div class="container">
+                <h2 id="contact-title" class="section-title">Contact</h2>
+                <span class="accent-line" aria-hidden="true"></span>
+                <p class="contact-lead">
+                    I'm open to conversations about internships, junior roles and collaborations.
+                    Email is the quickest way to reach me.
+                </p>
+
+                <div class="contact-grid">
+                    <a class="contact-card" href="mailto:jayannarampogu@gmail.com">
+                        <span class="contact-icon" aria-hidden="true">@</span>
+                        <span class="contact-text">
+                            <strong>Email</strong>
+                            <span>jayannarampogu@gmail.com</span>
+                        </span>
+                    </a>
+
+                    <a class="contact-card" href="https://www.linkedin.com/in/rampogu-samson-958a2932b" target="_blank" rel="noopener noreferrer">
+                        <span class="contact-icon" aria-hidden="true">in</span>
+                        <span class="contact-text">
+                            <strong>LinkedIn</strong>
+                            <span>rampogu-samson-958a2932b</span>
+                        </span>
+                    </a>
+
+                    <a class="contact-card" href="https://github.com/samsonrampogu" target="_blank" rel="noopener noreferrer">
+                        <span class="contact-icon" aria-hidden="true">&lt;/&gt;</span>
+                        <span class="contact-text">
+                            <strong>GitHub</strong>
+                            <span>samsonrampogu</span>
+                        </span>
+                    </a>
+                </div>
+
+                <a class="btn btn-secondary contact-resume" href="resume.pdf" download>Download Resume</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <span class="accent-line" aria-hidden="true"></span>
+            <p>&copy; 2026 Rampogu Samson</p>
+        </div>
+    </footer>
+
+</div>
+
+</body>
+</html>
